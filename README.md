@@ -1,6 +1,9 @@
 # MediaArchival
 # 🗂️ Media Archival System
 
+- “I developed a multithreaded Python application for a digital marketing client to automate their daily media content archiving process. The system parsed a list of URLs extracted from campaign reports, downloaded all the relevant images, PDFs, and media, and automatically organized them into categorized folders. Using multithreading and retry logic, I brought down the daily processing time from over an hour manually to under 5 minutes with automated error logging and recovery. This improved their content turnaround and reporting pipeline efficiency by over 80%.”
+
+
 ## 🎯 Client Requirement
 
 A digital marketing agency runs multiple brand campaigns and tracks their coverage across dozens of news websites and blogs daily. They want to build a **Media Archival System** that:
@@ -50,4 +53,25 @@ A digital marketing agency runs multiple brand campaigns and tracks their covera
 ---
 
 ## 📂 Folder Structure (Example)
+
+
+/downloads/
+├── images/
+│ └── 2025-07-29/
+├── documents/
+│ └── 2025-07-29/
+└── videos/
+└── 2025-07-29/
+
+
+
+---
+
+## 📌 Future Enhancements (Optional Ideas)
+
+- Add GUI or dashboard for manual monitoring
+- Integrate cloud storage (e.g., S3, Google Drive)
+- Schedule daily reports with CRON or APScheduler
+- Add support for video thumbnail previews
+
 
